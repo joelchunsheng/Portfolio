@@ -7,3 +7,8 @@
         scrollTop: position
     } /* speed */ );
 });
+
+//testing
+$(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
