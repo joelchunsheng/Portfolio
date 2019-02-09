@@ -89,7 +89,7 @@ body {
     display: table;
     margin: 0;
     max-width: none;
-    height: 80vh;
+    height: 100vh;
 }
 
 .about h2{
@@ -139,7 +139,7 @@ body {
     display: table;
     margin: 0;
     max-width: none;
-    height: 80vh;
+    height: 100vh;
 }
 
 .work h2 {
@@ -157,4 +157,61 @@ body {
 .prjInfo{
     max-width: 40%;
     float: right;
+    line-height: 1.5em;
+
 }
+
+.prjInfo a{
+    font-weight: bold;
+}
+
+.gitLinks {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    color: #0B1516;
+}
+
+.gitLinks::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: width .3s;
+}
+
+.gitLinks:hover::after {
+    width: 100%;
+}
+
+/*-----------------Contact-----------------*/
+.contact {
+    background-color: #D3D3D3;
+    padding: 10%;
+    margin: 0;
+    max-width: none;
+    /*height: 100vh;*/
+    align-self: center;
+    text-align: center;
+}
+
+.footerlinks {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 30px;
+    padding: 5px;
+}
+
+.footerlinks a{
+    margin: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.footerlinks a:hover{
+    color: dimgrey;
+}
+
+
+
