@@ -12,6 +12,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F8F9F8;
     color: #0B1516;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 /*Navbar*/
@@ -211,6 +215,10 @@ body {
 
 .footerlinks a:hover{
     color: dimgrey;
+}
+
+.ending{
+    font-size: small;
 }
 
 
