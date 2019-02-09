@@ -1,0 +1,160 @@
+﻿/*------------------------notes------------------------*/
+/*F8E3D5
+ECF5F2
+F8F9F8
+0B1516
+D3D3D3*/
+
+/*----------------------------------------------------*/
+body {
+    margin: 0;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F8F9F8;
+    color: #0B1516;
+}
+
+/*Navbar*/
+.header {
+    width: 100%;
+    text-align: right;
+    position: fixed;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    padding: 27px;
+}
+
+.logo img{
+    position:inherit;
+    width: 2.5vw;
+}
+
+.logo:hover .joel2:hover {
+    transition: transform 0.4s;
+    transform: translate(5px, 5px);
+}
+
+.link {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 15px 25px;
+    position: relative;
+    text-decoration: none;
+    color: #0f0f0f;
+}
+
+.link:hover {
+    opacity: 1;
+    bottom: 5px;
+}
+
+
+/*-----------------intro-----------------*/
+
+.intro {
+    padding: 0 7%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+}
+
+.introContent {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.introContent h1 {
+    font-size: 2em;
+    /*font-family: 'HelveticaNeue';*/
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.introContent p {
+    font-size: 1.2em;
+    font-weight: bold;
+    /*font-family: 'Open Sans', sans-serif;*/
+}
+
+
+
+/*about*/
+.about {
+    background-color: #D3D3D3;
+    padding: 10%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 80vh;
+}
+
+.about h2{
+    font-size: 2em;
+}
+
+
+.about p {
+    font-size: 1.1em;
+    max-width: 50%;
+    line-height: 2em;
+}
+
+.about a{
+    text-decoration: none;
+    color: #0B1516;
+    font-weight:bold;
+    display: inline-block;
+}
+
+.about a:hover{
+    color: #ECF5F2;
+}
+
+.about a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ECF5F2;
+    transition: width .3s;
+}
+
+.about a:hover::after {
+    width: 100%;
+}
+
+.about img{
+    width: 40%;
+    float:right;
+}
+
+
+/*-----------------Work-----------------*/
+.work {
+    padding: 10%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 80vh;
+}
+
+.work h2 {
+    font-size: 2em;
+}
+
+.projects {
+    padding: 5%;
+}
+
+.prjImg {
+    width: 30vw;
+}
+
+.prjInfo{
+    max-width: 40%;
+    float: right;
+}
