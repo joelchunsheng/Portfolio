@@ -8,6 +8,6 @@
     } /* speed */ );
 });
 
-$(document).bind("contextmenu",function(e) { 
-    e.preventDefault();
-});
+//$(document).bind("contextmenu",function(e) { 
+//    e.preventDefault();
+//});

@@ -11,7 +11,7 @@ body {
     /*font-family: 'Open Sans', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     background-color: #F8F9F8;
-    color: #0B1516;
+    color: #2B3946;
     /*-moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
@@ -31,21 +31,33 @@ section{
 
 .logo {
     position: absolute;
-    left: 5vw;
-    padding: 2vh;
+    /*left: 5vw;
+    padding: 2vh;*/
+    margin: 5%;
+    color: #0B1516;
+    text-decoration: none;
+    -webkit-transform: translateX(-50%) rotate(-90deg);
+    transform-origin: center;
+    left: 28px;
+    letter-spacing: 10px;
+    font-weight: bold;
     
 }
 
-.logo img{
+.logo p:hover{
+    /*color: #A28C7F;*/
+}
+
+/*.logo img{
     position:inherit;
-    /*width: 2.5vw;*/
+    width: 2.5vw;
     width: 3vw;
 }
 
 .logo:hover .joel2:hover {
     transition: transform 0.4s;
     transform: translate(5px, 5px);
-}
+}*/
 
 .link {
     display: inline-block;
@@ -53,11 +65,10 @@ section{
     margin: 1vh 2vw;
     position: relative;
     text-decoration: none;
-    color: #0f0f0f;
+    color: #2B3946;
 }
 
 .link:hover {
-    opacity: 1;
     bottom: 5px;
 }
 
@@ -67,9 +78,9 @@ section{
 .intro {
     padding: 0 7%;
     display: table;
-    margin: 0;
+    margin: 0 8%;
     max-width: 100vw;
-    height: 100vh;
+    height: 95vh;
 }
 
 .introContent {
@@ -78,19 +89,73 @@ section{
 }
 
 .introContent h1 {
-    font-size: 2em;
-    /*font-family: 'HelveticaNeue';*/
+    font-size: 2.3em;
     font-weight: 900;
     letter-spacing: 3px;
+    color:#2B3946;
+    max-width: 80%;
 }
 
 .introContent p {
     font-size: 1.2em;
     font-weight: bold;
-    /*font-family: 'Open Sans', sans-serif;*/
+    color: #2B3946;
 }
 
+.introMA {
+    color: #46938b;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
 
+.introMA:hover{
+    background-color: #e5f3f1;
+}
+
+.introID {
+    color: #467593;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+}
+
+.introID:hover {
+    background-color: #e1ebf1;
+}
+
+.sideID {
+    width: 15vw;
+    height: 1vh;
+    background-color: #2B3946;
+    line-height: 1em;
+    position: fixed;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateX(-50%) rotate(-90deg);
+    transform-origin: center;
+    left: 28px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.minimalScrollsec{
+    text-align:center;
+    margin: 0 0 4%;
+}
+
+.minimalScrollsec a{
+    text-decoration:none;
+    color: #2B3946;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.minimalScrollsec a:hover{
+
+}
 
 /*about*/
 .about {
