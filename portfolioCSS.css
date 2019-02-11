@@ -27,6 +27,10 @@ section{
     width: 100vw;
     text-align: right;
     position: fixed;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .logo {
@@ -41,6 +45,7 @@ section{
     left: 28px;
     letter-spacing: 10px;
     font-weight: bold;
+    animation: fadein 2.5s;
     
 }
 
@@ -83,9 +88,46 @@ section{
     height: 95vh;
 }
 
+.introWrap {
+    display: block;
+    overflow:hidden;
+}
+
+.l1 {
+    display: block;
+    animation-delay: .5s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.l2 {
+    display: block;
+    animation-delay: .6s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
+.l3 {
+    display: block;
+    animation-delay: .7s;
+    animation-duration: 1s;
+    animation-name: bottom-to-top;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+
 .introContent {
     display: table-cell;
     vertical-align: middle;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
 }
 
 .introContent h1 {
@@ -93,7 +135,6 @@ section{
     font-weight: 900;
     letter-spacing: 3px;
     color:#2B3946;
-    max-width: 80%;
 }
 
 .introContent p {
@@ -141,9 +182,10 @@ section{
     font-weight: bold;
 }
 
-.minimalScrollsec{
-    text-align:center;
+.minimalScrollsec {
+    text-align: center;
     margin: 0 0 4%;
+    animation: fadein 2.5s;
 }
 
 .minimalScrollsec a{
@@ -151,6 +193,7 @@ section{
     color: #2B3946;
     font-size: 15px;
     letter-spacing: 2px;
+    animation: fadein 2.5s;
 }
 
 .minimalScrollsec a:hover{
@@ -225,19 +268,21 @@ section{
     padding: 5%;
 }
 
-.prjContainer{
-    display:grid;
+.prjContainer {
+    display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 50%;
+    /*grid-template-rows: 95%;*/
     grid-row-gap: 2em;
+    grid-column-gap: 2em;
+
 }
 
 .prjImg {
-    width: 30vw;
+    width: 100%;
 }
 
 .prjInfo{
-    /*max-width: 90%;*/
+    max-width: 90%;
     line-height: 1.3em;
 
 }
@@ -268,6 +313,24 @@ section{
 
 .prjend{
     text-align:center;
+}
+
+.prjimgcontainer {
+    overflow: hidden;
+    display:grid;
+}
+
+.prjContainer img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.prjContainer:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 /*-----------------Contact-----------------*/
 .contact {
