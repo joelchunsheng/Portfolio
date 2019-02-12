@@ -21,6 +21,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{A581E93E-383
 	ProjectSection(SolutionItems) = preProject
 		animation.css = animation.css
 		portfolioCSS.css = portfolioCSS.css
+		smallDevices.css = smallDevices.css
 	EndProjectSection
 EndProject
 Global

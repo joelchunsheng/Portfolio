@@ -1,0 +1,95 @@
+﻿@media screen and (max-width: 540px) {
+    .view {
+        width: 400px;
+    }
+
+    .menu{
+        font-size: 0.5em;
+    }
+
+    .logo{
+        margin: 10% 0;
+    }
+
+    .introContent h1 {
+        font-size: 1em;
+        font-weight: 900;
+        letter-spacing: 3px;
+        color: #2B3946;
+    }
+
+    .minimalScrollsec a{
+        font-size: 10px;
+    }
+
+    /*-------------about-------------*/
+    .about {
+    }
+
+    .about h2{
+        font-size: 1em;
+        margin: 25% 8% 0 0;
+    }
+
+    .about img{
+        float: none;
+        width: 100%;
+    }
+
+    .about p{
+        font-size: 0.7em;
+        max-width: 100%;
+    }
+
+    /*-------------work-------------*/
+    .work {
+        padding: 0;
+    }
+
+    .work h2 {
+        font-size: 1em;
+        margin: 25% 8% 10% 10%;
+    }
+
+    .projects{
+        padding: 0;
+
+    }
+
+    .prjContainer {
+        display: block;
+        z-index: -1;
+    }
+
+    .prjimg{
+        transition: none;
+    }
+
+    .prjInfo {
+        font-size: 0.7em;
+        max-width: none;
+        padding: 5%;
+    }
+
+    .prjInfo h4{
+        font-size: smaller;
+    }
+
+    .prjend{
+        font-size: 0.7em;
+    }
+
+    /*-------------contact-------------*/
+
+    footer{
+        font-size: 0.9em;
+    }
+
+    .footerlinks{
+        font-size: 1.2rem;
+    }
+
+    .ending {
+        font-size: 0.9em;
+    }
+}

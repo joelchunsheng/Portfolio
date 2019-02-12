@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="index.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="smallDevices.css">
     <Files>
-      <File FileName="index.html" Line="8" Column="51" />
-      <File FileName="portfolioJS.js" Line="13" Column="3" />
+      <File FileName="index.html" Line="18" Column="22" />
+      <File FileName="smallDevices.css" Line="46" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace />

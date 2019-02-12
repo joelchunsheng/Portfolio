@@ -287,6 +287,12 @@ section{
 
 }
 
+.prjInfo h4{
+    color: #50504E;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
 .prjInfo a{
     font-weight: bold;
 }
