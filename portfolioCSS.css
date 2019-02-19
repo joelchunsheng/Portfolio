@@ -3,7 +3,14 @@
 ECF5F2
 F8F9F8
 0B1516
-D3D3D3*/
+D3D3D3
+
+04354E
+2B3946
+A28C7F
+50504E
+467593
+*/
 
 /*----------------------------------------------------*/
 body {
@@ -214,11 +221,21 @@ section{
     font-size: 2em;
 }
 
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+}
+
+.about img {
+    width: 100%;
+}
+
 
 .about p {
     font-size: 1.1em;
-    max-width: 50%;
     line-height: 2em;
+    padding: 5% 0 0 0;
 }
 
 .about a{
@@ -245,10 +262,6 @@ section{
     width: 100%;
 }
 
-.about img{
-    width: 40%;
-    float:right;
-}
 
 
 /*-----------------Work-----------------*/
